@@ -1,0 +1,5 @@
+- name: Workflow 
+  uses: actions/upload-artifact@v2
+  with:
+    name: meus_arquivos # O nome do artefato que será exibido no GitHub
+    path: ./caminho/para/seu/arquivo # O caminho para o arquivo ou diretório que você quer subir
